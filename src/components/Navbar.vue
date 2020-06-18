@@ -18,7 +18,7 @@
         Home
       </router-link>
 
-      <router-link class="navbar-item" to="/Contact">
+      <router-link class="navbar-item" to="/contact">
         Contact
       </router-link>
 
@@ -28,11 +28,11 @@
         </a>
 
         <div class="navbar-dropdown">
+          <router-link class="navbar-item" to="/recipefinder">
+            Recipe Finder
+          </router-link>
           <a class="navbar-item">
-            Project 1
-          </a>
-          <a class="navbar-item">
-            Project 2
+            Smoothie Database
           </a>
           <a class="navbar-item">
             Project 3

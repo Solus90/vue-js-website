@@ -1,10 +1,11 @@
 <template>
+<div class="box">
   <div class="container">
      <form class="form-horizontal" >
 <fieldset>
 
 <!-- Form Name -->
-<legend>Contact Us</legend>
+<legend>Contact Me</legend>
 
 <!-- Text input-->
 <div class="field">
@@ -35,19 +36,23 @@
 </form>
 
   </div>
+</div>
 </template>
 
 <script>
 export default {
-    name: 'container'
+    name: 'Contact'
 
 }
 </script>
 
 <style scoped>
+.box{
+  margin-top: 4rem;
+}
 
 fieldset{
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 </style>

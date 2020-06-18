@@ -29,4 +29,5 @@ export default {
     padding: 1.5rem 1.5rem 1rem;
     bottom: 0px;
 }
+
 </style>

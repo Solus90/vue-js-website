@@ -1,6 +1,6 @@
 <template>
-  <footer class="footer">
-  <div class="content has-text-centered">
+  <footer class="footer primary">
+  <div class="content has-text-centered has-text-white">
     <p>
       © 2020 Solus Web Design.  All Rights Reserved.
     </p>

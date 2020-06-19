@@ -1,5 +1,5 @@
 <template>
-<div class="box">
+<div class="box is-centered">
   <div class="container">
      <form class="form-horizontal" >
 <fieldset>
@@ -49,10 +49,13 @@ export default {
 <style scoped>
 .box{
   margin-top: 4rem;
+  align-content: center;
 }
 
 fieldset{
   margin-top: 5px;
 }
+
+
 
 </style>

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Index from '../views/Index.vue'
 import Contact from '../views/Contact.vue'
 import RecipeFinder from '../views/RecipeFinder.vue'
+import Smoothie from '../views/Smoothie.vue'
 
 
 Vue.use(VueRouter)
@@ -21,6 +22,11 @@ const routes = [{
         path: '/recipefinder',
         name: 'RecipeFinder',
         component: RecipeFinder
+    },
+    {
+        path: '/smoothie',
+        name: 'Smoothie',
+        component: Smoothie
     }
 ]
 

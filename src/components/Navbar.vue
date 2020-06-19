@@ -1,6 +1,8 @@
 <template>
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"> 
     <router-link class="navbar-item" to="/">
       <img src="../assets/solosLogo.png" width="80" height="28">
     </router-link>
@@ -31,22 +33,32 @@
           <router-link class="navbar-item" to="/recipefinder">
             Recipe Finder
           </router-link>
-          <a class="navbar-item">
+          <router-link class="navbar-item" to="/smoothie">
             Smoothie Database
-          </a>
+          </router-link>
           <a class="navbar-item">
             Project 3
           </a>
           <hr class="navbar-divider">
           <a class="navbar-item" href="https://github.com/Solus90" target="_blank">
             GitHub
+            <i class="fas fa-external-link-alt"></i>
           </a>
         </div>
       </div>
     </div>
 
     <div class="navbar-end">
-      <div class="navbar-item">
+      <div class="navbar-item" id='icon'>
+         <a href="https://www.linkedin.com/in/phil-linley-6ba55850/" target="_blank">
+          <i class="icon fab fa-linkedin-in"></i>
+         </a>
+         <a href="mailto:linley.phil@gmail.com" taret="_blank">
+           <i class="icon fa fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="tel:6144773338">
+            <i class="icon fa fa-phone" aria-hidden="true"></i>
+          </a>
       </div>
     </div>
   </div>
@@ -92,4 +104,10 @@ export default {
 </script>
 
 <style>
+.navbar-item .icon:only-child, .navbar-link .icon:only-child {
+    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
+    
+}
+
 </style>

@@ -124,7 +124,7 @@ h3 {
   font-size: 3.3rem;
 }
 .avatar{
-  opacity: 85%;
+  opacity: 85% !important;
   background-color: green;
   border-radius: 15px;
 }

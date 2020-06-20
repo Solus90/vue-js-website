@@ -1,7 +1,11 @@
 <template>
 <div class="box is-centered">
   <div class="container">
-     <form class="form-horizontal" >
+     <form class="form-horizontal" 
+      action="https://formspree.io/xzbjvjpv"
+      method="POST"
+      >
+      
 <fieldset>
 
 <!-- Form Name -->
